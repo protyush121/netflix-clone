@@ -1,70 +1,64 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Netflix Clone Built Using React.JS & Firebase
 
-## Available Scripts
+This is a clone of Netflix website built using React.JS as a Front-end & Firebase as Back-end. It's not a replica, and it doesn't have all the features of Netflix website. it's a similar version of Netflix with my own design touch, showing my abilities in React.JS to build something advanced like Netflix. It contains the ui of the home page, and if clicked on certain movies the trailer starts playing from YouTube (a random video).
 
-In the project directory, you can run:
+### Take a look at the live version here : https://netflix-clone-1ace8.web.app/
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Project overview
+The Browse Page consists of 5 main sections:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1) Header, which includes:
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Categories Links: It shows the movies of a specific category when you click on it, for example, if you click on the films link it will be active and the browse page will show only the films. And if you click on the series link it will be active and the browse page will show only the series.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Featured Movie Title & Description: It shows the title and description of the featured movie.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+2) Movies Slides: It's a slides shows the movies based on their genre. The genres and all movie information had been retrieved from the Firebase database.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3) Movie Card: It's an image represent the movie, when you hover over it became bigger and it will show its card feature if you click on it.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4) Video Player: it's a video player that plays trailer available on youtube , appears in the middle of the screen when you click on any play button, and you have to click on the play icon in the video player after it show up because it doesn't have an autoplay option currently. And when the video player show up the whole screen became an overlay, and only the video appears in the middle, and when you scroll up and down the video player moves with you. The video player should show the video of this movie which you clicked on it, but for this project purpose, it shows only any random video as a sample for some movies.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+You can close the video player anytime by clicking anywhere else on the screen.
+## Tools
+I have built this project using the following tools & techniques:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+React.JS
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+React Router.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+React Forms.  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+React Hooks.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+useState.
 
-### Making a Progressive Web App
+useContext.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+useEffect.
 
-### Advanced Configuration
+useHistory.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+useState.
 
-### Deployment
+Compound Components.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+JSX.
 
-### `npm run build` fails to minify
+CSS Modules.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Firebase.
+
+
+VSCode.
+## Show your support
+Give a star if you like the project
