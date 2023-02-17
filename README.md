@@ -1,3 +1,5 @@
+![png-clipart-netflix-logo-thumbnail-tech-companies](https://user-images.githubusercontent.com/95518074/219764704-9532a603-b7d2-4ded-bf52-7b2376358660.png)
+
 
 # Netflix Clone Built Using React.JS & Firebase
 
@@ -9,6 +11,8 @@ This is a clone of Netflix website built using React.JS as a Front-end & Firebas
 
 
 ## Project overview
+![Screenshot_20230218_002405](https://user-images.githubusercontent.com/95518074/219764841-ec1e7b20-07bf-4956-af98-89257c42ec63.png)
+
 The Browse Page consists of 5 main sections:
 
 1) Header, which includes:
@@ -26,6 +30,8 @@ Featured Movie Title & Description: It shows the title and description of the fe
 4) Video Player: it's a video player that plays trailer available on youtube , appears in the middle of the screen when you click on any play button, and you have to click on the play icon in the video player after it show up because it doesn't have an autoplay option currently. And when the video player show up the whole screen became an overlay, and only the video appears in the middle, and when you scroll up and down the video player moves with you. The video player should show the video of this movie which you clicked on it, but for this project purpose, it shows only any random video as a sample for some movies.
 
 You can close the video player anytime by clicking anywhere else on the screen.
+![Screenshot_20230218_002457](https://user-images.githubusercontent.com/95518074/219764963-919e80e8-8e79-4ca4-8315-dde1c41fd286.png)
+
 ## Tools
 I have built this project using the following tools & techniques:
 
@@ -61,4 +67,4 @@ Firebase.
 
 VSCode.
 ## Show your support
-Give a star if you like the project
+Give a ⭐ if you like the project
